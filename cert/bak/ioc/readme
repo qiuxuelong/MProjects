@@ -1,0 +1,3 @@
+# use ioc.py
+1. should change /PyLib/confloader.py path and read the conf.yml file
+2. python ioc.py

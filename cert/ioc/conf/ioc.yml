@@ -1,0 +1,89 @@
+# for log path
+LOG_PATH = /home/qiuxuelong/Desktop/python/ioc/Log
+
+
+
+#===============================================
+#
+#       Check Protocol
+#
+#==============================================
+DnsCheck  = yes
+IcmpCheck = yes
+HttpCheck = yes
+
+UnknownProtoCheck = yes
+
+#===============================================
+#
+#       For ElasticSearch
+#
+#===============================================
+PAGE_SIZE = 10000
+
+
+#===============================================
+#
+#	For Highest Layer Detect
+#
+#===============================================
+LOG_HIGHEST_LAYER_NAME = highestlayer.log
+
+
+#===============================================
+#
+#	For DNS Layer Detect
+#
+#===============================================
+LOG_DNS_NAME = dns_log.csv
+LOG_DNS_LENGTH_DISTRIBUTION_NAME = dns_length_distribution.csv
+
+DomainMaxLength = 20
+LableMaxNum = 4
+LableMaxLimit = 63
+
+#===============================================
+#
+#       For ICMP Layer Detect
+#
+#===============================================
+LOG_ICMP_CLASS_LOG_STORE_NAME = icmp_class_log_storea.csv
+LOG_ICMP_COMPARE_LOG_STORE_NAME = icmp_compare_log_storeb.log
+
+
+#===============================================
+#
+#       For SNMP Layer Detect
+#
+#===============================================
+LOG_SNMP_STORE_NAME = snmp.csv
+
+
+
+#===============================================
+#
+#       For IP Layer Detect
+#
+#===============================================
+LOG_FOR_BLACK_IP_NAME = log_black_ip.log
+
+
+
+#===============================================
+#
+#       For My-SQL DB Info
+#
+#===============================================
+My_SQL_IP = localhost
+My_SQL_USERNAME = root
+My_SQL_PASSWORD = root
+My_SQL_DB_NAME = ibpdb
+My_SQL_DB_PORT = 3306
+
+
+#===============================================
+#
+#       For Port-Protocol Detect
+#
+#===============================================
+LOG_PROT_PROTOCOL_NAME = portprotocol.csv
